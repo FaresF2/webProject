@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "JetBrainsMono Nerd Font", Arial;
+  background-image: url("images/texture.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.container {
+  max-width: 600px;
+  margin: 100px auto;
+  padding: 0 20px;
+}
+.card {
+  background-color: white;
+  margin: 20px 0;
+  padding: 20px 30px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.card h2 {
+  font-size: 27px;
+  margin-bottom: 20px;
+}
+.card p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 30px;
+}
+.card-sporty h2 {
+  color: #e04553;
+}
+.card-casual h2 {
+  color: #0d4ba3;
+}
+.card-formal h2 {
+  color: #512b22;
+}
+.card a {
+  text-decoration: none;
+  color: white;
+  background-color: #333;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+.card a:hover {
+  opacity: 0.8;
+}
+.card-sporty a {
+  background-color: #e04553;
+}
+.card-casual a {
+  background-color: #0d4ba3;
+}
+.card-formal a {
+  background-color: #512b22;
+}
+.card-sporty {
+  background: white url("./images/sporty/sporty.png") no-repeat center
+    right/200px;
+}
+.card-casual {
+  background: white url("./images/casual/casual.png") no-repeat center
+    right/200px;
+}
+.card-formal {
+  background: white url("./images/formal/formal.png") no-repeat center
+    right/200px;
+}
+.navbar {
+  background-color: #2b3e50;
+  padding: 10px 0;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+.navbar .nav-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.1em;
+  margin: 0 15px;
+  font-weight: bold;
+}
+.navbar .current {
+  color: #f0ad4e;
+  text-shadow: 0 0 10px #f0ad4e;
+}
+.navbar .nav-link:hover {
+  color: #f0ad4e;
+  text-shadow: 0 0 10px #f0ad4e;
+}
+.left {
+  position: absolute;
+  left: 10px;
+}
+.right {
+  position: absolute;
+  right: 10px;
+}
+.right1 {
+  position: absolute;
+  right: 90px;
+}
+.sep1 {
+  font-weight: bold;
+  font-size: 20px;
+  position: absolute;
+  right: 85px;
+}
+.seperator {
+  font-weight: bold;
+  font-size: 20px;
+}

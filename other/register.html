@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="register.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="../index.html" class="nav-link left">Home</a>
+      <a href="sporty.html" class="nav-link">Sporty</a>
+      <span class="seperator">|</span>
+      <a href="casual.html" class="nav-link">Casual</a>
+      <span class="seperator">|</span>
+      <a href="formal.html" class="nav-link">Formal</a>
+      <a href="#" class="nav-link right1 current">Register</a>
+      <span class="sep1">|</span>
+      <a href="login.html" class="nav-link right">Login</a>
+    </nav>
+    <div class="container">
+      <h1>Sign Up</h1>
+      <p>Create an account or <a href="login.html">Login</a></p>
+
+      <form>
+        <label for="email">Email address</label>
+        <input
+          type="email"
+          id="email"
+          placeholder="Enter your email"
+          required
+        />
+
+        <label for="username">Username</label>
+        <input
+          type="text"
+          id="username"
+          placeholder="Choose a username"
+          required
+        />
+
+        <label for="password">Password</label>
+        <input
+          type="password"
+          id="password"
+          placeholder="Enter your password"
+          required
+        />
+
+        <div class="checkbox-container">
+          <input type="checkbox" id="updates" />
+          <label for="updates">I do not want to receive marketing emails</label>
+        </div>
+        <button type="submit" class="submit-btn">Register</button>
+      </form>
+
+      <div class="footer">
+        By signing up, you are accepting our
+        <a href="#">terms of service</a> and <a href="#">privacy policy</a>.
+      </div>
+    </div>
+  </body>
+</html>
